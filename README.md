@@ -42,6 +42,8 @@ Maven should be installed on your computer. There are two possibilities:
 After the installation is complete, run:
 
 ```console
+
+fzfzfqazzfq
 mvn -v
 ```
 
