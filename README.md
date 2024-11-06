@@ -47,3 +47,6 @@ mvn -v
 
 The result should be similar to the image below. Make sure the Java version is 17!
 ![](images/maven-version.png)
+
+
+test 1,2
