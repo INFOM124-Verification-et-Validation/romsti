@@ -1,13 +1,18 @@
 package com.gildedrose;
 
-public class BrieWrapper extends ItemWrapper {
+public class BrieWrapper implements ItemWrapper {
+
+    Item item;
 
     public BrieWrapper(Item item) {
-        super(item);
+        this.item = item;
     }
 
-    @Override
+
     public void updateQuality() {
-        
+        if (item.quality < 50){
+            item.quality++;
+        }
+        item.sellIn = item.sellIn - 1;
     }
 }

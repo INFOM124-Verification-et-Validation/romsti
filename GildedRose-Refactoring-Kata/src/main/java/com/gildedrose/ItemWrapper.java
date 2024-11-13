@@ -1,15 +1,6 @@
 package com.gildedrose;
 
-public class ItemWrapper {
+interface ItemWrapper {
 
-    Item item;
-
-    public ItemWrapper(Item item) {
-        this.item = item;
-    }
-
-    public void updateQuality(){
-
-
-    }
+    public void updateQuality();
 }
